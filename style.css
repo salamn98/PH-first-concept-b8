@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.menu-container{
+    background-color: rgb(44, 43, 43);
+    padding: 20px;
+    color:white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menus{
+    display: flex;
+}
+.logo-photo{
+    width:120px;
+}
+.item{
+    margin-right:10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover{
+    color:purple;
+}
+.banner-img{
+    width:400px;
+}
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    height:100vh;
+    align-items: center;
+    border:2px solid grey; 
+    color: rgb(19, 18, 18);
+    background-image:url("./images/lovepik-white-spot-png-image_400246669_wh1200.png"),
+    linear-gradient(45deg, rgba(3, 3, 3, 0.843),rgb(53, 51, 51));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse ;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width:230px;
+    height:280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+icon{
+    width: 70px;
+}
+.box-btn{
+    background-color:gray ;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+justify-content: space-around;
+    padding: 20px;
+    background-color: ;
+}
